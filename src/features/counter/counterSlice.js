@@ -1,7 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 
-
+//second, cretate the slice for each component..
+//here this is the slice for counter.
+//in a slice we give an object inside createSlice()
+//the object consists of
+//  1.name              << reducer name
+//  2.initialState      <<initial state value
+//  3.reducers          <<reducer functions
 export const counterSlice = createSlice({
     name: 'counter',
     initialState: {
